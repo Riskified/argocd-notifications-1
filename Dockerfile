@@ -19,7 +19,7 @@ COPY . .
 RUN CGO_ENABLED=0 GOOS=${TARGETOS} GOARCH=${TARGETARCH} go build -ldflags="-w -s" -o /app/argocd-notifications ./cmd
 RUN ln -s /app/argocd-notifications /app/argocd-notifications-backend
 
-FROM scratch
+FROM alpine
 
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
 COPY --from=builder /app/argocd-notifications /app/argocd-notifications
