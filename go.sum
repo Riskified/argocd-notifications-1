@@ -93,8 +93,6 @@ github.com/argoproj/argo-cd/v2 v2.0.0-rc3 h1:jBuz8qqLL0gG6Nb892x3+eP+v/wjQpkdSOl
 github.com/argoproj/argo-cd/v2 v2.0.0-rc3/go.mod h1:Rw7fuyae0v8b3KMJoZp8jf5A2tBP2dQ8uWj9HTRZITo=
 github.com/argoproj/gitops-engine v0.3.1 h1:wM4RUzH54sWdchD7Ws8UdAIsjk08BmjN9bLuW79xKWk=
 github.com/argoproj/gitops-engine v0.3.1/go.mod h1:IBHhAkqlC+3r/wBWUitWSidQhPzlLoSTWp2htq3dyQk=
-github.com/argoproj/notifications-engine v0.2.1-0.20210804121253-e4903f48f730 h1:M0x22b8ILYJSvIrZFtSzqMR699n3KQmk8pIDOsCayKc=
-github.com/argoproj/notifications-engine v0.2.1-0.20210804121253-e4903f48f730/go.mod h1:rKhm9LtebGKgLA/UtPtBeRUrrS/CT0U5az1jSfUiipw=
 github.com/argoproj/pkg v0.2.0 h1:ETgC600kr8WcAi3MEVY5sA1H7H/u1/IysYOobwsZ8No=
 github.com/argoproj/pkg v0.2.0/go.mod h1:F4TZgInLUEjzsWFB/BTJBsewoEy0ucnKSq6vmQiD/yc=
 github.com/armon/circbuf v0.0.0-20150827004946-bbbad097214e/go.mod h1:3U/XgcO3hCbHZ8TKRvWD2dDTCfh9M9ya+I9JpbB7O8o=
@@ -680,6 +678,8 @@ github.com/prometheus/procfs v0.2.0/go.mod h1:lV6e/gmhEcM9IjHGsFOCxxuZ+z1YqCvr4O
 github.com/prometheus/tsdb v0.7.1/go.mod h1:qhTCs0VvXwvX/y3TZrWD7rabWM+ijKTux40TwIPHuXU=
 github.com/quobyte/api v0.1.8/go.mod h1:jL7lIHrmqQ7yh05OJ+eEEdHr0u/kmT1Ff9iHd+4H6VI=
 github.com/remyoudompheng/bigfft v0.0.0-20170806203942-52369c62f446/go.mod h1:uYEyJGbgTkfkS4+E/PavXkNJcbFIpEtjt2B0KDQ5+9M=
+github.com/riskified/notifications-engine v1.0.0 h1:qQWFrzTS8Fu34eGGX4DNUc7aGvglFrKDkrhiGvgZwEI=
+github.com/riskified/notifications-engine v1.0.0/go.mod h1:rKhm9LtebGKgLA/UtPtBeRUrrS/CT0U5az1jSfUiipw=
 github.com/rivo/tview v0.0.0-20200219210816-cd38d7432498/go.mod h1:6lkG1x+13OShEf0EaOCaTQYyB7d5nSbb181KtjlS+84=
 github.com/rivo/uniseg v0.1.0/go.mod h1:J6wj4VEh+S6ZtnVlnTBMWIodfgj8LQOQFoIToxlJtxc=
 github.com/robfig/cron v1.1.0/go.mod h1:JGuDeoQd7Z6yL4zQhZ3OPEVHB7fL6Ka6skscFHfmt2k=
