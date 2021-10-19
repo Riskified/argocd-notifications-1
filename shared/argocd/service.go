@@ -80,6 +80,9 @@ func (svc *argoCDService) GetCommitMetadata(ctx context.Context, repoURL string,
 		return nil, err
 	}
 	name := strings.Split(metadata.Author, " ")
+	if name[0] == "riskiops" {
+		name = strings.Split(metadata.Message, " ")
+	}
 	return &shared.CommitMetadata{
 		Message:    metadata.Message,
 		Author:     metadata.Author,
