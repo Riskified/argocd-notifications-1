@@ -3,6 +3,7 @@ package argocd
 import (
 	"context"
 	"fmt"
+	"strings"
 
 	"github.com/argoproj-labs/argocd-notifications/expr/shared"
 	"github.com/argoproj/argo-cd/v2/common"
@@ -78,11 +79,13 @@ func (svc *argoCDService) GetCommitMetadata(ctx context.Context, repoURL string,
 	if err != nil {
 		return nil, err
 	}
+	name := strings.Split(metadata.Author, " ")
 	return &shared.CommitMetadata{
-		Message: metadata.Message,
-		Author:  metadata.Author,
-		Date:    metadata.Date.Time,
-		Tags:    metadata.Tags,
+		Message:    metadata.Message,
+		Author:     metadata.Author,
+		AuthorName: name[0],
+		Date:       metadata.Date.Time,
+		Tags:       metadata.Tags,
 	}, nil
 }
 
